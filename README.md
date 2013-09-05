@@ -44,7 +44,7 @@ The only requirement is the usage of [SCSS](http://sass-lang.com/). Once importe
 // ... other rules ...
 ~~~
 
-**That's it.** Pretty easy, isn' it?
+**That's it!** Pretty easy, isn't it?
 
 ## Browser compatibility
 
