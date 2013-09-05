@@ -26,7 +26,7 @@ The only requirement is the usage of [SCSS](http://sass-lang.com/). Once importe
 </html>
 ~~~
 
-## Stylesheet
+##### Stylesheet
 
 ~~~ scss
 // ... other imports before ...
@@ -46,7 +46,7 @@ The only requirement is the usage of [SCSS](http://sass-lang.com/). Once importe
 
 **That's it.** Pretty easy, isn' it?
 
-## Browser compatibility.
+## Browser compatibility
 
 Tested to be working on Chrome 6+, Safari 4+, Firefox 3.6+, Opera 12+ and IE 9+.
 
