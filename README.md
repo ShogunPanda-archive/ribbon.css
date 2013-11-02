@@ -6,7 +6,7 @@ http://sw.cow.tc/ribbon.css
 
 ## Usage
 
-The only requirement is the usage of [SCSS](http://sass-lang.com/). Once imported, Ribbon.css add the `ribbon` mixin which you can use in your stylesheets.
+The only requirement is the usage of [SASS](http://sass-lang.com/). Once imported, Ribbon.css add the `ribbon` mixin which you can use in your stylesheets.
 
 ## Example
 
@@ -28,18 +28,17 @@ The only requirement is the usage of [SCSS](http://sass-lang.com/). Once importe
 
 ##### Stylesheet
 
-~~~ scss
+~~~ sass
 // ... other imports before ...
-@import "ribbon";
+@import ./ribbon
 // ... other imports after ...
 
 // ... other rules ...
 
-.ribbon{
-  @include ribbon;
+.ribbon
+  +ribbon;
 
   // Customize the A and SPAN here
-}
 
 // ... other rules ...
 ~~~
