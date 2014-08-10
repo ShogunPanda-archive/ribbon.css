@@ -2,7 +2,7 @@
 
 Ribbon.css is a small css file which allows you to create awesome looking ribbons. **And without using any image!**
 
-http://sw.cow.tc/ribbon.css
+http://sw.cowtech.it/ribbon.css
 
 ## Usage
 
