@@ -1,12 +1,18 @@
 # Ribbon.css
 
-Ribbon.css is a small css file which allows you to create awesome looking ribbons. **And without using any image!**
+Ribbon.css is a small SASS file which allows you to create awesome looking ribbons. **And without using any image!**
 
 http://sw.cowtech.it/ribbon.css
 
 ## Usage
 
 The only requirement is the usage of [SASS](http://sass-lang.com/). Once imported, Ribbon.css add the `ribbon` mixin which you can use in your stylesheets.
+
+Optionally you can import it by using [NPM](https://npmjs.com):
+
+~~~
+npm install ribbon.css
+~~~
 
 ## Example
 
@@ -36,9 +42,9 @@ The only requirement is the usage of [SASS](http://sass-lang.com/). Once importe
 // ... other rules ...
 
 .ribbon
-  +ribbon;
+  +ribbon(top-left) // Supported placements are: top-left, top-right, bottom-left and bottom-right
 
-  // Customize the A and SPAN here
+  // Customize the inner contents
 
 // ... other rules ...
 ~~~
@@ -47,7 +53,7 @@ The only requirement is the usage of [SASS](http://sass-lang.com/). Once importe
 
 ## Browser compatibility
 
-Tested to be working on Chrome 6+, Safari 4+, Firefox 3.6+, Opera 12+ and IE 9+.
+Tested to be working on the most recent (that is: latest two major versions) of all modern browsers.
 
 ## Contributing to ribbon.css
 

@@ -1,0 +1,30 @@
+{
+  "name": "ribbons.css",
+  "version": "2.0.0",
+  "description": "Ribbon.css is a small SASS file which allows you to create awesome looking ribbons.",
+  "main": "ribbons.sass",
+  "files": [
+    "ribbons.sass",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "postpublish": "git push origin --tags && git push origin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShogunPanda/ribbon.css"
+  },
+  "keywords": [
+    "ribbons"
+  ],
+  "author": "Shogun <shogun@cowtech.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShogunPanda/ribbon.css/issues"
+  },
+  "homepage": "https://sw.cowtech.it/ribbons.css",
+  "optionalDependencies": {
+    "node-sass": ">= 3.4.0"
+  }
+}
