@@ -4,7 +4,7 @@
   "description": "Ribbon.css is a small SASS file which allows you to create awesome looking ribbons.",
   "main": "ribbon.sass",
   "files": [
-    "ribbon.sass",
+    "ribbon.scss",
     "README.md",
     "CHANGELOG.md"
   ],
