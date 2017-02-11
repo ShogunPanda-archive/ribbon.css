@@ -34,17 +34,18 @@ npm install ribbon.css
 
 ##### Stylesheet
 
-~~~ sass
+~~~ scss
 // ... other imports before ...
-@import ./ribbon
+@import "./ribbon";
 // ... other imports after ...
 
 // ... other rules ...
 
-.ribbon
-  +ribbon(top-left) // Supported placements are: top-left, top-right, bottom-left and bottom-right
+.ribbon{
+  @include ribbon(top-left); // Supported placements are: top-left, top-right, bottom-left and bottom-right
 
   // Customize the inner contents
+}
 
 // ... other rules ...
 ~~~

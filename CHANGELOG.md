@@ -1,3 +1,7 @@
+### 3.0.0 / 2017-02-11
+
+* Changed to SCSS syntax in order to avoid https://github.com/sass/node-sass/issues/1192.
+
 ### 2.0.0 / 2016-04-10
 
 * Completely refactored and simplified.
