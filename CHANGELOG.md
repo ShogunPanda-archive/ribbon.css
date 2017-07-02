@@ -1,3 +1,7 @@
+### 3.1.1 / 2017-02-11
+
+* Fixed package.json.
+
 ### 3.1.0 / 2017-02-11
 
 * Fixed package.json.

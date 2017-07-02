@@ -2,7 +2,7 @@
   "name": "ribbon.css",
   "version": "3.1.0",
   "description": "Ribbon.css is a small SASS file which allows you to create awesome looking ribbons.",
-  "main": "ribbon.sass",
+  "main": "ribbon.scss",
   "files": [
     "ribbon.scss",
     "README.md",
