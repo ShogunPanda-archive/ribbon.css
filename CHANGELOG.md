@@ -1,3 +1,9 @@
+### 2018-06-18 / 3.1.2
+
+* chore: End of development notice.
+* Updated license links and badges.
+* Updated CHANGELOG.
+
 ### 3.1.1 / 2017-07-02
 
 * Fixed package.json.
