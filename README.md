@@ -1,12 +1,8 @@
-# Ribbon.css
+# ribbon.css
+
+## END OF DEVELOPMENT NOTICE - This package has been discontinued
 
 Ribbon.css is a small SASS file which allows you to create awesome looking ribbons. **And without using any image!**
-
-http://sw.cowtech.it/ribbon.css
-
-## END OF DEVELOPMENT NOTICE
-
-# This gem has been discontinued.
 
 ## Usage
 
@@ -26,7 +22,7 @@ npm install ribbon.css
 <html>
   <head>
     <title>Example</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="ribbon">
@@ -40,15 +36,13 @@ npm install ribbon.css
 
 ```scss
 // ... other imports before ...
-@import "./ribbon";
+@import './ribbon';
 // ... other imports after ...
 
 // ... other rules ...
 
 .ribbon {
-  @include ribbon(
-    top-left
-  ); // Supported placements are: top-left, top-right, bottom-left and bottom-right
+  @include ribbon(top-left); // Supported placements are: top-left, top-right, bottom-left and bottom-right
 
   // Customize the inner contents
 }
